@@ -216,7 +216,7 @@ h1 {
     display: flex;
 }
 .contact p strong {
-    width: 60px;
+    min-width: 80px;
     display: block;
     text-align: right;
     margin-right: 10px;
