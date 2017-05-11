@@ -33,7 +33,7 @@ h1 {
 .header { height: 110px; }
 .header h1 {
     font-size: 3em;
-    font-family: 'Exo', 'Orbitron', 'Abel', 'Exo 2', 'Titillium Web', sans-serif;
+    font-family: 'Exo', sans-serif;
     margin: 0.3em 0;
 }
 .header .lang-link {
