@@ -44,6 +44,7 @@ h1 {
     color: #222;
     padding: 4px;
 }
+.header img { max-height: 64px; }
 .header .lang-link a:hover {
     color: #666;
 }
@@ -150,10 +151,14 @@ h1 {
     margin-bottom: 10px;
     border-radius: 2px;
     width: 100%;
+    color: #4e7d97;
 }
 .project-item:hover {
     /*background-color: #dedede;*/
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.project-item:visited {
+    color: #335162;
 }
 .project-item .thumbnail {
     width: 40%;
@@ -245,6 +250,8 @@ h1 {
 
 
 @media (min-width: 480px) {
+    .header img { max-height: 72px; }
+
     .menu { font-size: 1.1em; }
     .menu > ul {
         margin: 0 auto;
